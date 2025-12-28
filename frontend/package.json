@@ -1,0 +1,43 @@
+{
+  "name": "code-review-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ace-builds": "^1.43.4",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-ace": "^14.0.1",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "tailwindcss -i ./src/App.css -o ./public/tailwind.min.css --watch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
+}
